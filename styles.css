@@ -1,0 +1,83 @@
+input[type="text"],
+select,
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="tele"],
+select,
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="email"],
+select,
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #000;
+  color: #ffffff;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+input[type="submit"]:hover 
+{
+  background-color: #717171;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: relative;
+  background-color: #555;
+  overflow: hidden;
+}
+/* Navbar links on mouse-over */
+.topnav a:hover {
+  background-color: #000;
+}
+/* Style the links inside the navigation bar */
+.topnav a 
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active 
+{
+  background-color: #04AA6D;
+  color: white;
+}
